@@ -8,5 +8,6 @@ namespace Ferent_Ioan_Lab2.Models
     {
         public int ID { get; set; }
         public string Name { get; set; }
+        public ICollection<Book> Books { get; set; }
     }
 }

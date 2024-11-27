@@ -17,5 +17,6 @@ namespace Ferent_Ioan_Lab2.Data
         public DbSet<Ferent_Ioan_Lab2.Models.Book> Book { get; set; } = default!;
         public DbSet<Ferent_Ioan_Lab2.Models.Customer> Customer { get; set; } = default!;
         public DbSet<Ferent_Ioan_Lab2.Models.Genre> Genre { get; set; } = default!;
+        public DbSet<Ferent_Ioan_Lab2.Models.Author> Author { get; set; } = default!;
     }
 }
